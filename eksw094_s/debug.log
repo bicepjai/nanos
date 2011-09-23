@@ -1,0 +1,709 @@
+DEBUG LOG OPEN: debug.log
+MAIN Initializing...
+MAIN SIMULATED ERROR RATE=0
+MAIN action=1
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=0
+  state=0
+  zincnt=0
+  k->wslots=0
+SHOW_SSLOTS
+FREE_RSLOT slot=0
+  seq=0
+FREE_SSLOT slot=0
+  seq=0
+FREE_RSLOT slot=1
+  seq=0
+FREE_SSLOT slot=1
+  seq=0
+FREE_RSLOT slot=2
+  seq=0
+FREE_SSLOT slot=2
+  seq=0
+FREE_RSLOT slot=3
+  seq=0
+FREE_SSLOT slot=3
+  seq=0
+FREE_RSLOT slot=4
+  seq=0
+FREE_SSLOT slot=4
+  seq=0
+FREE_RSLOT slot=5
+  seq=0
+FREE_SSLOT slot=5
+  seq=0
+FREE_RSLOT slot=6
+  seq=0
+FREE_SSLOT slot=6
+  seq=0
+FREE_RSLOT slot=7
+  seq=0
+FREE_SSLOT slot=7
+  seq=0
+FREE_RSLOT slot=8
+  seq=0
+FREE_SSLOT slot=8
+  seq=0
+FREE_RSLOT slot=9
+  seq=0
+FREE_SSLOT slot=9
+  seq=0
+FREE_RSLOT slot=10
+  seq=0
+FREE_SSLOT slot=10
+  seq=0
+FREE_RSLOT slot=11
+  seq=0
+FREE_SSLOT slot=11
+  seq=0
+FREE_RSLOT slot=12
+  seq=0
+FREE_SSLOT slot=12
+  seq=0
+FREE_RSLOT slot=13
+  seq=0
+FREE_SSLOT slot=13
+  seq=0
+FREE_RSLOT slot=14
+  seq=0
+FREE_SSLOT slot=14
+  seq=0
+FREE_RSLOT slot=15
+  seq=0
+FREE_SSLOT slot=15
+  seq=0
+FREE_RSLOT slot=16
+  seq=0
+FREE_SSLOT slot=16
+  seq=0
+FREE_RSLOT slot=17
+  seq=0
+FREE_SSLOT slot=17
+  seq=0
+FREE_RSLOT slot=18
+  seq=0
+FREE_SSLOT slot=18
+  seq=0
+FREE_RSLOT slot=19
+  seq=0
+FREE_SSLOT slot=19
+  seq=0
+FREE_RSLOT slot=20
+  seq=0
+FREE_SSLOT slot=20
+  seq=0
+FREE_RSLOT slot=21
+  seq=0
+FREE_SSLOT slot=21
+  seq=0
+FREE_RSLOT slot=22
+  seq=0
+FREE_SSLOT slot=22
+  seq=0
+FREE_RSLOT slot=23
+  seq=0
+FREE_SSLOT slot=23
+  seq=0
+FREE_RSLOT slot=24
+  seq=0
+FREE_SSLOT slot=24
+  seq=0
+MAIN K_INIT kermit return status=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=6
+  state=1
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=-1 flg=0 len=   0 crc=    0 pwi=
+RPAR capas=14
+  wslots=1
+GET_SSLOT slot=0
+sending S pkt s_seq=0
+  s_slot=0
+SPKT typ=[S]
+  seq=0
+  len=13
+SPKT k->s_seq=0
+SPKT k->s_pw[seq]=0
+GET_SSLOT slot=0
+SPKT opktlen=19
+SPKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+SPKT txd retc=0
+MAIN -------------- loop=1
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=0
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=2
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=1
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=3
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=2
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=4
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=3
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=5
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=4
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=6
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=5
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=7
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=6
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=8
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=7
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=9
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=8
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=10
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=9
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=11
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=10
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=12
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=11
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=13
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=12
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=14
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=13
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=15
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=14
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=16
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=15
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
+RESEND txd ret=0
+MAIN K_RUN return status=0
+MAIN -------------- loop=17
+ok2rxd=1
+READPKT ttyfd=3
+  unused len=150
+  used k->r_maxlen=150
+  k->r_timo=5
+  ttyfd=3
+READPKT timed out k->r_timo=5
+MAIN rx_len=0
+MHEX[]
+  i=0, nval=0
+KERMIT ---------------------- version[EKSW-0.94]
+  fc=1
+  state=11
+  zincnt=0
+  k->wslots=1
+SHOW_SSLOTS
+  slot=00 seq=00 flg=0 len=  19 crc=    0 pwi= 00
+In the protocol
+DO_RXD len=0
+DO_RXD len<4: resending earliest
+RESEND seq=-1
+EARLIEST_SSEQ=0
+RESEND opktinfo:
+  seq=0
+  typ=[S]
+  len=19
+  rtr=16
+  crc=0
+  flg=0
+>PKT[0 S~% @-#Y3~.!!W*\r]
+TX_DATA write n==19
